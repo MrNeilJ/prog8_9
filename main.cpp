@@ -9,5 +9,13 @@ int main()
                         "Jupiter", "Saturn", "Uranus", "Neptune",
                         "Pluto (a dwarf planet)" };
 
-    // Diaplsy the values in
+    // Display the values in the array
+    cout << "Here are the planets:\n";
+
+    for (string val : planets)
+    {
+        cout << val << endl;
+    }
+
+    return 0;
 }
